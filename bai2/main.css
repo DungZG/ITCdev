@@ -1,0 +1,119 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    z-index: 1;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.main{
+    /* z-index: 1; */
+}
+#nav {
+    display: inline-block;
+    color: aliceblue;
+}
+
+#nav > li{
+    display: inline-block;
+}
+#nav li {
+    top: 250px;
+    position: relative;
+    padding-left: 40px;
+}
+
+#nav > li > a{
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border: 3px solid white;
+}
+
+#nav li a {
+    position: relative;
+    text-decoration: none;
+    display:block;
+    line-height: 46px;
+    padding: 0 24px;
+}
+
+#nav li:hover .subnav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: rgb(224, 224, 224);
+}
+#nav > li:hover > a{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: rgb(224, 224, 224);
+    background-color: rgb(238, 15, 153);
+    display: inline-block;
+}
+
+#nav .subnav {
+    display: none;
+    min-width: 160px;
+    top: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+#nav .subnav a {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    color: rgb(238, 234, 234);
+    padding: 0 14px;
+    line-height: 38px;
+    bottom: 250px;
+    text-transform: uppercase;
+}
+
+#slider {
+    z-index: -1;
+    position: absolute;
+    width: 1919px;
+    height: 1079px;
+    background: url('./img/background.jpg') top center / cover no-repeat;
+}
+
+#slider .text-heading{
+    font-weight: 500;
+    font-size: 35px;
+}
+#slider .text-description{
+    font-size: 18px;
+    margin-top: 25px;
+}
+
+#slider .text-content{
+    position: absolute;
+    bottom: 950px;
+    color: #fff;
+    /* left: 50%; */
+    /* transform: translateX(-50%); */
+    width: 100%;
+    text-align: center;
+}
+
+#middle{
+    position: relative;
+    display: inline-block;
+    border: 8px solid white;
+    top: 350px;
+    left: 470px;
+    width: 987px;
+    height: 550px;
+}
