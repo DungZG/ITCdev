@@ -117,3 +117,13 @@
     width: 987px;
     height: 550px;
 }
+
+.content-middle h2{
+    position: relative;
+    padding-top: 335px;
+    border-bottom: 200px solid rgb(166, 218, 248);
+    border-left: 0 solid transparent;
+    border-right: 50px solid transparent;
+    height: 200px;
+    width: 350px;
+}
