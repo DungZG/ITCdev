@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#main{
+
+}
+
+.header{
+    text-align: center;
+}
+
+.content-header{
+    display: inline-block;
+    color: rgb(180, 87, 12);
+    font-size: 24px;
+}
+
+.content-background{
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 450px;
+    height: 900px;
+    width: 1080px;
+    overflow: hidden;
+    opacity: 0.5;
+    background-image: url("./img/cycle-circle-flamingo\ \(1\).jpg");
+    background-repeat: no-repeat;
+}
+
+
+#img-content{
+    display: block;
+    position: absolute;
+    opacity: 1 !important;
+    top: 100px;
+    left: 500px;
+    width: 400px;
+    height: 600px;
+    background-image: url("./img/fd3a53a4c024057a5c35.jpg");
+    background-repeat: no-repeat;
+}
+
+.text-content{
+    position: absolute;
+    color: aliceblue;
+    left: 950px;
+    bottom: 500px;
+}
+
+.text1{
+    color: rgb(112, 111, 110);
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.text2{
+    color: rgb(245, 245, 238);
+    line-height:20px;
+    font-size: 20px;
+}
+.bi{
+    border: 3px dashed #fff;
+    border-radius: 50%;
+    color: rgb(68, 202, 68);
+}
+
+.bitext{
+    font-size: 30px;
+    color: rgba(116, 240, 116, 0.829);
+}
