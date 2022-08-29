@@ -40,6 +40,7 @@
     left: 500px;
     width: 400px;
     height: 600px;
+    z-index: 1;
     background-image: url("./img/fd3a53a4c024057a5c35.jpg");
     background-repeat: no-repeat;
 }
@@ -71,4 +72,14 @@
 .bitext{
     font-size: 30px;
     color: rgba(116, 240, 116, 0.829);
+}
+
+.img-content2{
+    position: relative;
+    z-index: -1;
+    background-color: rgb(18, 150, 202);
+    width: 500px;
+    height: 600px;
+    bottom: 900px;
+    left: 450px;
 }
