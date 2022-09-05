@@ -1,0 +1,128 @@
+#main{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://www.worldatlas.com/r/w960-q80/upload/da/27/73/shutterstock-459943711.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#header {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+}
+
+#slider {
+    background-color: aliceblue;
+    width: 1018px;
+    height: 762px;
+    margin-left: 140px;
+}
+
+#profile {
+    background-color: rgb(58, 58, 153);
+    width: 561px;
+    height: 373px;
+    margin-top: -780px;
+    margin-left: 1263px;
+}
+
+#map {
+    margin-left: 1264px ;
+    margin-top: 20px;
+}
+#slider .slider-title{
+    color: rgb(54, 54, 192);
+}
+
+.slider-title{
+    padding-top: 56px;
+    padding-left: 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input::placeholder{
+    color: rgb(219, 107, 107);
+}
+
+input[type=messengers]{
+  width: 100%;
+  height: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+
+.slider-from{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.from-content{
+    width: 350px;
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.from-messengers{
+    margin-left: 30px;
+    width: 900px;
+    height: 337px;
+}
+
+textarea{
+    resize: none;
+}
+
+
+.text {
+    color: aqua;
+}
+
+.end{
+    margin-left: 30px;
+    text-align: center;
+    line-height: 20px;
+    background-color: rgb(238, 16, 182);
+    height: 50px;
+    width: 100px;
+}
+
+.end2{
+    color: white;
+}
+
+.profile-text{
+    display: block;
+    margin-left: 20px;
+    color: rgb(243, 242, 242);
+}
+
+.icon-profile{
+    color: white;
+    margin-left: 20px;
+}
+
+.text-icon{
+    color: white;
+    margin-left: 20px;
+}
+
+.profile-content{
+    margin-top: 20px;
+}
+
+.icon-end{
+    color: white;
+    margin-left: 20px;
+    padding-top: 50px;
+}
+
+.icon-end-text{
+    margin-left: 30px;
+}
