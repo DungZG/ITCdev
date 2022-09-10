@@ -130,3 +130,10 @@ textarea{
 .icon-end-text{
     margin-left: 30px;
 }
+
+.icon-profile{
+    min-width: 80px;
+    min-height: 80px;
+    background-color: #18b7ff;
+    border-radius: 50%;
+}
