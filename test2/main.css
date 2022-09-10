@@ -77,6 +77,10 @@ input[type=messengers]{
 
 textarea{
     resize: none;
+    padding: 10px;
+    outline: none;
+    min-height: 250px;
+    min-width: 790px;
 }
 
 
